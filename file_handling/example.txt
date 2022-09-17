@@ -1,0 +1,4 @@
+Hola, soy un archivo de texto
+de ejemplo que va a ser manipulado
+con un programilla, hecho por los
+estudiantes de Microsystem

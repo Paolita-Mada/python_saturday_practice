@@ -12,7 +12,9 @@ print("Las longitudes entregadas hasta el momento son:")
 print(l1,l2,l3)
 
 if(l1 <= l2+l3) and (l2 <= l1+l3) and (l3 <= l2+l1):
-    print("Si es posible el triangulo con",l1,l2,l3)
+    print("si es posible el triangulo con ",l1,l2,l3)
 else:
-    print("No es posible formar un triangulo:",l1,l2,l3)
-        
+    long_stick = find_max(l1,l2,l3)
+    other_sticks = other_sticks(l1,l2,l3)
+    print("No es posible formar un triàngulo:",l1,l2,l3,"No cumple la condiciòn")
+       
